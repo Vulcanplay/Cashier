@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">易结收银</string>
+    <string name="order_cashier">单据收银</string>
+    <string name="wx_re_print">微信小票重打印</string>
+    <string name="ali_re_print">支付宝小票重打印</string>
+    <string name="flash_cashier">普通收银</string>
+    <string name="orderId">订单号</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="bankCardPay">银行卡收款</string>
+    <string name="bankCardType">凭密消费</string>
+    <string name="bankCardTypeRePrint">交易明细</string>
+    <string name="bankCardTypeRevoke">撤销</string>
+    <string name="bankCardTypeRemainder">余额查询</string>
+    <string name="bankCardTypeCheckOut">结算</string>
+    <string name="bankCardTypeSign">签到</string>
+    <string name="bankCardTypeHistory">打印交易汇总</string>
+    <string name="alert">提示</string>
+    <string name="input_revoke_title">撤销</string>
+    <string name="input_reprint_title">重打印</string>
+    <string name="input_revoke_content">请输入交易凭证号</string>
+    <string name="revokeCode">交易凭证号</string>
+    <string name="payResultTitle">支付结果</string>
+    <string name="paySearchTitle">查询结果</string>
+    <string name="revokeResultTitle">撤销结果</string>
+    <string name="payResultAlert">结果提醒</string>
+    <string name="payResultSuccess">支付成功</string>
+    <string name="revokeResultSuccess">撤销成功</string>
+    <string name="payResultError">支付失败</string>
+    <string name="payResultClose">关闭</string>
+    <string name="bankName">开户行：</string>
+    <string name="bankNo">卡号：</string>
+    <string name="bankMoney">余额：</string>
+    <string name="payResultExceptionToRepair">支付成功，网络异常，请手动补送</string>
+    <string name="payResultExceptionToRepairForICar">支付成功，iCar异常，请手动补送</string>
+    <string name="revokeResultExceptionToRepair">撤销成功，网络异常，请手动补送</string>
+    <string name="revokeResultExceptionToRepairForICar">撤销成功，iCar异常，请手动补送</string>
+    <!-- 闪电收银 -->
+    <string name="flash_cashier_title">请输入金额：</string>
+    <string name="flash_cash_total">￥0.00</string>
+    <string name="rmb">￥</string>
+    <string name="panel_backspace">退格</string>
+    <string name="panel_empty">清空</string>
+    <string name="panel_pay">收\n\n款</string>
+    <string name="panel_plus">+</string>
+    <string name="panel_dot">.</string>
+    <string name="panel_num0">0</string>
+    <string name="panel_num1">1</string>
+    <string name="panel_num2">2</string>
+    <string name="panel_num3">3</string>
+    <string name="panel_num4">4</string>
+    <string name="panel_num5">5</string>
+    <string name="panel_num6">6</string>
+    <string name="panel_num7">7</string>
+    <string name="panel_num8">8</string>
+    <string name="panel_num9">9</string>
+
+    <!--字体等级， 超大，标题，副级，最小-->
+    <dimen name="huge">42dp</dimen>
+    <dimen name="title">22dp</dimen>
+    <dimen name="vice">18dp</dimen>
+    <dimen name="least">14dp</dimen>
+
+    <!--Dialog-->
+    <string name="empty"></string>
+    <string name="input_sn_title">SN码绑定</string>
+    <string name="input_sn_content">请输入机器码背部的SN码</string>
+    <string name="please_wait">正在加载</string>
+    <string name="please_wait_login">正在登录</string>
+    <string name="please_wait_repair">请等待补送</string>
+    <string name="please_wait_repairing">正在补送</string>
+    <string name="please_wait_payed">正在处理支付结果...</string>
+    <string name="please_wait_qrcode">正在生成二维码</string>
+    <string name="please_wait_exception">正在处理异常数据</string>
+
+    <!--message-->
+    <string name="message_network">网络错误，请检查网络</string>
+    <string name="message_not_data">暂无单据数据</string>
+    <string name="anonymous">无姓名</string>
+    <string name="YUAN">元</string>
+    <string name="totalZeroMsg">金额不能为0</string>
+    <string name="notRepairOrder">暂无补送单</string>
+    <string name="input_setting_title">设置</string>
+    <string name="input_setting_content">请输入管理密码</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">登录账号</string>
+    <string name="prompt_password">输入密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="sign_not_null">账号密码不能为空</string>
+    <string name="rePrintPrev">打印上一张单据</string>
+    <string name="input_print_title">重打印</string>
+    <string name="input_print_content">请输入重打印的交易凭证号，或者选择重打印上一单交易。</string>
+    <string name="reprintButton">打印</string>
+    <string name="have_exception_pay">有系统异常交易尚未处理\n前往“设置”处理。</string>
+    <string name="go_setting">设置</string>
+    <string name="techSupport">技术支持：蓝海在线科技有限公司</string>
+    <string name="merchantName">店名： %s</string>
+    <string name="new_load">NEWLAND</string>
+    <string name="confirm">确定</string>
+    <string name="pay_success">支付成功</string>
+    <string name="shop_name_title">商 品(COMMODITY)</string>
+    <string name="app_name_title">商户名称(MERCHANT NAME)</string>
+    <string name="status_title">支付状态(PAY STATUS)</string>
+    <string name="date_title">支付日期(PAY DATE)</string>
+    <string name="transId_title">交易单号(TRANSACTION NUMBER)</string>
+    <string name="amt_title">金额(AMOUNT)</string>
+    <string name="custom_sign">客户签字(CUSTOMER SIGNATURE)</string>
+    <string name="sign_statement">本人确认以上交易,同意将其计入微信支付账户</string>
+    <string name="sign_statement_ali">本人确认以上交易,同意将其计入支付宝支付账户</string>
+    <string name="remark_reprint">备注：重打印</string>
+    <string name="print_title">微信支付</string>
+    <string name="print_ali_title">支付宝支付</string>
+    <string name="confirm_js">是否换班？</string>
+
+    <string name="pos_system_error">POS系统异常</string>
+    <string name="pay_success_pos_network_error">支付完成，POS网络异常</string>
+    <string name="pay_success_icar_network_error">支付成功，iCar网络异常</string>
+    <string name="revoke_success_pos_network_error">撤销成功，POS网络异常</string>
+    <string name="revoke_success_icar_network_error">撤销成功，iCar网络异常</string>
+    <string name="revoke_success">撤销成功</string>
+    <string name="repair_success">补送成功</string>
+    <string name="bankCardTypeLastSelect">末笔查询</string>
+</resources>

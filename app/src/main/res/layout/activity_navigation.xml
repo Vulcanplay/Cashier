@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="icar.a5i4s.com.cashierb.Navigation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <ImageButton
+                android:id="@+id/icon_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_order"
+                android:layout_margin="5dp"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/icon_revoke"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_revoke"
+                android:layout_margin="5dp"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/icon_history"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_history"
+                android:layout_margin="5dp"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/icon_checkout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_checkout_new"
+                android:layout_margin="5dp"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:id="@+id/icon_setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_setting"
+                android:layout_margin="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <ImageButton
+                android:id="@+id/icon_pay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_pay"
+                android:layout_margin="5dp"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/icon_remainder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_remainder"
+                android:layout_margin="5dp"
+                android:layout_weight="1"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/icon_repair"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/icon_repair"
+                    android:layout_margin="5dp"/>
+
+                <TextView
+                    android:id="@+id/orderRepairCount"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:text="1"
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/vice"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignTop="@+id/icon_repair"
+                    android:layout_alignEnd="@+id/icon_repair" />
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/reprint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_reprint"
+                android:layout_margin="5dp"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/plus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_plus"
+                android:layout_margin="5dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

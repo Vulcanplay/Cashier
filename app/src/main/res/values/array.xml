@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pay_type">
+        <item>@string/pay_type_pos</item>
+        <item>@string/pay_type_wechat_qrcode</item>
+        <item>@string/pay_type_alipay_qrcode</item>
+    </string-array>
+    <string-array name="change">
+        <item>@string/debug</item>
+        <item>@string/release</item>
+    </string-array>
+    <string name="debug">测试</string>
+    <string name="release">正式</string>
+    <string name="change_dorr">切换环境</string>
+
+    <string name="pay_type_wechat_qrcode">微信扫码支付</string>
+    <string name="pay_type_alipay_qrcode">支付宝扫码支付</string>
+    <string name="pay_type_pos">POS支付</string>
+    <string name="please_choice_pay_type">选择支付方式</string>
+</resources>

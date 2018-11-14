@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+    useLibrary "org.apache.http.legacy"
+    defaultConfig {
+        applicationId "icar.a5i4s.com.cashierb"
+        minSdkVersion 22
+        targetSdkVersion 23
+        versionCode 2
+        versionName "2.0.7"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    task nativeLibsToJar(type: Zip, description: "create a jar archive of the native libs") {
+        destinationDir file("$projectDir/libs")
+        baseName "Native_Libs2"
+        extension "jar"
+        from fileTree(dir: "libs", include: "**/*.so")
+        into "lib"
+    }
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn(nativeLibsToJar)
+        options.encoding = "UTF-8"
+    }
+}
+
+dependencies {
+    provided fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.0'
+    compile 'com.android.support:support-v4:23.0.1'
+    compile files('libs/ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar')
+    compile 'com.android.support:design:23.2.0'
+    compile 'com.orhanobut:dialogplus:1.11@aar'
+    compile 'com.victor:lib:1.0.4'
+    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.zhy:okhttputils:2.6.2'
+    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+    compile 'com.github.mancj:MaterialSearchBar:0.3.1'
+    compile project(':PullToRefresh')
+    compile 'com.afollestad.material-dialogs:core:0.9.0.1'
+    compile 'com.afollestad.material-dialogs:commons:0.9.0.1'
+    compile 'com.wrapp.floatlabelededittext:library:0.0.6'
+    compile files('libs/sdk4upos_20160822_mix.jar')
+    compile files('libs/zixing-core-3.2.0.jar')
+}

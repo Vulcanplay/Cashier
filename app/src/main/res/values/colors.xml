@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="dark">#333333</color>
+    <color name="assertive">#ef473a</color>
+    <color name="assertive_pre">#e42112</color>
+    <color name="gray">#F8F8F8</color>
+    <color name="gray_pre">#EDEDED</color>
+    <color name="item_line">#DDDDDD</color>
+    <color name="gray_text">#898989</color>
+    <color name="money">#FF9933</color>
+    <color name="money_vice">#FFCC33</color>
+
+    <!--color array-->
+    <color name="array_1">#0085c3</color>
+    <color name="array_2">#7ab800</color>
+    <color name="array_3">#f2af00</color>
+    <color name="array_4">#dc5034</color>
+    <color name="array_5">#ce1126</color>
+    <color name="array_6">#b7295a</color>
+    <color name="array_7">#6e2585</color>
+    <color name="array_8">#71c6c1</color>
+    <color name="array_9">#5482ab</color>
+    <color name="array_10">#009bbb</color>
+</resources>

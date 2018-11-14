@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:textColor="@color/dark"
+            android:textSize="16dp"
+            android:text="商 品(COMMODITY)"/>
+        <TextView
+            android:id="@+id/shopName"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:textColor="@color/dark"
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:text="北京翼翔行MINI"/>
+
+    <!--** * * ** * * * * * -->
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:textColor="@color/dark"
+        android:textSize="16dp"
+        android:text="商户名称(MERCHANT NAME)"/>
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:textColor="@color/dark"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:text="open4s"/>
+    <!--** * * ** * * * * * -->
+
+    <!--** * * ** * * * * * -->
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:textColor="@color/dark"
+        android:textSize="16dp"
+        android:text="支付状态(PAY STATUS)"/>
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:textColor="@color/dark"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:text="支付成功"/>
+    <!--** * * ** * * * * * -->
+    <!--** * * ** * * * * * -->
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:textColor="@color/dark"
+        android:textSize="16dp"
+        android:text="支付日期(PAY DATE)"/>
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:textColor="@color/dark"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:text="2016-06-16 00:00:00"/>
+    <!--** * * ** * * * * * -->
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:textColor="@color/dark"
+        android:textSize="16dp"
+        android:text="交易单号(TRANSACTION NUMBER)"/>
+    <TextView
+        android:id="@+id/transId"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:textColor="@color/dark"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:text="123456789123456789123456789"/>
+    <!--** * * ** * * * * * -->
+    <!--** * * ** * * * * * -->
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:textColor="@color/dark"
+            android:textSize="16dp"
+            android:text="金额(AMOUNT)"/>
+        <TextView
+            android:id="@+id/amt"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:textColor="@color/dark"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:text="￥11.22"/>
+    <!--** * * ** * * * * * -->
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+
+                android:layout_height="23dp"
+                android:textColor="@color/dark"
+                android:textSize="16dp"
+                android:text="客户签字(CUSTOMER SIGNATURE)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+    <!--** * * ** * * * * * -->
+</LinearLayout>
